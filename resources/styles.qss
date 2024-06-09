@@ -1,44 +1,90 @@
 /* Estilo para la ventana principal */
 QWidget {
-    background-color: #f0f0f0;
+    background-color: #f7f7f7;
     font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
 }
 
 /* Estilo para los temporizadores */
 TimerWidget {
-    border: 2px solid #ccc;
-    border-radius: 10px; /* Establecer bordes redondeados */
-    margin-bottom: 10px; /* Añadir un margen inferior para separar los temporizadores */
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
 }
 
 /* Estilo para las etiquetas de texto */
 QLabel {
-    color: #333;
+    color: #444;
+    font-size: 16px;
 }
 
 /* Estilo para los botones */
 QPushButton {
-    background-color: #4CAF50;
+    background-color: #149cc2;
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 8px 16px;
+    padding: 10px 20px;
     font-size: 16px;
 }
 
 QPushButton:hover {
-    background-color: #45a049;
+    background-color: #1191b4;
+}
+
+QPushButton:pressed {
+    background-color: #0c6781;
 }
 
 /* Estilo para los cuadros de texto */
 QLineEdit {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 4px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: #fdfdfd;
+}
+
+QLineEdit:focus {
+    background-color: #f9f9f9;
+    border-color: #2ae4eb;
+}
+
+/* Estilo para los botones de herramientas */
+QToolButton {
+    background-color: #2ae4eb;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
     font-size: 16px;
 }
 
-/* Estilo para el fondo de los cuadros de texto */
-QLineEdit:focus {
-    background-color: #f9f9f9;
+QToolButton:hover {
+    background-color: #1191b4;
+}
+
+QToolButton:pressed {
+    background-color: #0c6781;
+}
+
+/* Estilo para el menú contextual */
+QMenu {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+QMenu::item {
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+QMenu::item:selected {
+    background-color: #1191b4;
+    color: white;
 }
