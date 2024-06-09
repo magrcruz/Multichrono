@@ -1,0 +1,44 @@
+/* Estilo para la ventana principal */
+QWidget {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para los temporizadores */
+TimerWidget {
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Establecer bordes redondeados */
+    margin-bottom: 10px; /* Añadir un margen inferior para separar los temporizadores */
+}
+
+/* Estilo para las etiquetas de texto */
+QLabel {
+    color: #333;
+}
+
+/* Estilo para los botones */
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para los cuadros de texto */
+QLineEdit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+/* Estilo para el fondo de los cuadros de texto */
+QLineEdit:focus {
+    background-color: #f9f9f9;
+}
